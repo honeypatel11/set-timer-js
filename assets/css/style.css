@@ -1,0 +1,106 @@
+
+
+.set-time {
+    background-color: #F4D27A;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+   
+}
+
+.container {
+    width: 300px;
+    height: 380px;
+    background: linear-gradient(to bottom, #2E1B10, #1A0E08);
+    border-radius: 30px;
+    padding: 30px;
+    text-align: center;
+    color: #E4B65D;
+    font-family: Arial, sans-serif;
+   
+}
+
+.title {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.timer-circle {
+    width: 200px;
+    height: 200px;
+    background: #3B2617;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+}
+
+.timer-text {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    gap: 10px;
+}
+
+.buttons button {
+    background: #E4B65D;
+    border: none;
+    padding: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons button:hover {
+    background: #d4a151;
+}
+
+.time-settings {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.time-settings input {
+    background: #3B2617;
+    padding: 10px;
+    border-radius: 10px;
+    color: #E4B65D;
+    border: none;
+    text-align: center;
+    font-size: 17px;
+    -moz-appearance: textfield;
+}
+
+.time-settings input::-webkit-outer-spin-button,
+.time-settings input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.time-settings input:focus {
+    outline: 2px solid #E4B65D;
+}
